@@ -59,7 +59,7 @@ using namespace boost::asio::ip;
             // Popping last character "\n" 
             response.pop_back();
             
-            Sleep(0.5);
+            sleep(0.5);
 
             // Validating if the connection has to be closed 
             if (response == "exit") { 
