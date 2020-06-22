@@ -7,7 +7,7 @@ project(Boost)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-link_libraries(ws2_32 wsock32)
+#link_libraries(ws2_32 wsock32)
 
 find_package(Boost 1.73.0)
 if(Boost_FOUND)
